@@ -1,0 +1,127 @@
+/* General styling */
+body {
+    background-color: #464747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container for the transaction page */
+.transaction-container {
+    background: rgba(255, 255, 255, 0.2); /* Glass effect */
+    backdrop-filter: blur(8px); /* Apply the blur effect */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+/* Header styling */
+h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Card preview styling */
+.card-preview {
+    margin-bottom: 20px;
+}
+
+/* Card styling */
+.card {
+    background: linear-gradient(135deg, #35475b, #517680);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(240, 238, 238);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+/* Card header */
+.card-header h3 {
+    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Card body */
+.card-body {
+    margin: 20px 0;
+}
+
+/* Card number styling */
+.card-number {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+/* Card info */
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+/* Card footer */
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input field styling */
+input {
+    padding: 12px;
+    border: 1px solid #171616;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2); /* Transparent background */
+    color: rgb(23, 22, 22);
+    transition: background 0.3s ease;
+}
+
+/* Focus effect on input fields */
+input:focus {
+    border-color: #007bff;
+    background: rgba(255, 255, 255, 0.4); /* Lighten the background on focus */
+    outline: none;
+}
+
+/* Card details (expiry, CVV, etc.) */
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Button styling */
+button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
